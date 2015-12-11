@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* 
+
+Theme Name: Gradum Ante Main Theme
+Theme URI: gradumante.com
+Description: The Gradum Ante website main style
+Author: Thomas Flock Jr
+Author URI: nico.ninja
+Version: 1.0
+ */
+@-ms-viewport {
+ width: device-width;
+}
+@viewport {
+ width: device-width;
+}
+html {
+	height:100%;
+}
+body {
+	background-image: url(images/new_pattern_background.svg);
+	background-size: 15%;
+	font-family: 'Orbitron', sans-serif;
+	height:100%;
+}
+#main_all_content_wrapper {
+	position:relative;
+	min-height:100%;
+	padding-bottom:500px;
+}
+#main_all_content_wrapper_2 {
+		position:relative;
+	min-height:100%;
+	
+}
+/*          index page contents start here     */
+
+
+
+#simpleSolutionsContainer h2 {
+	/* background-image: url(images/trans_black_background.png); */
+	background-color: black;
+	color: #47A3FF;
+	margin-top: 0px;
+	font-size: 38px;
+	padding: 2% 0;
+}
+#simpleSolutionsContainer h3 {
+	background-color: #47A3FF;
+	margin-top: -10px;
+	color: black;
+	padding: 10px 0;
+	font-weight: 400;
+}
+#simpleSolutionsContainer h3 a {
+	color: black;
+}
+#mainIntoImageWrapper {
+	background-color: white;
+	padding: 5% 0;
+	margin: 70px 0 0 0;
+	border-top: 5px solid #47A3FF;
+	-webkit-box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+#main_menu_trigger_style {
+	position: absolute;
+	right: 0;
+	top: -50px;
+	width: auto;
+	height: auto;
+	/* background-color: #47A3FF;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a79d+27,60abf8+76,47a3ff+100 */
+	background: rgb(0,167,157); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,167,157,1) 13%, rgba(96,171,248,1) 76%, rgba(71,163,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,167,157,1) 13%, rgba(96,171,248,1) 76%, rgba(71,163,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,167,157,1) 13%, rgba(96,171,248,1) 76%, rgba(71,163,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a79d', endColorstr='#47a3ff', GradientType=0 ); /* IE6-9 */
+	padding: 5px 15px;
+}
+#main_menu_trigger_style a:link, #main_menu_trigger_style a:visited {
+	color: white;
+	text-decoration: none;
+	transition: ease 300ms;
+}
+#main_menu_trigger_style a:hover {
+	color: black;
+	text-decoration: none;
+	transition: ease 300ms;
+}
+#main_menu_trigger_style h4 {
+	font-size: 20px;
+	float: right;
+}
+#main_menu_trigger_style h4 span {
+	font-size: 18px;
+	padding-left: 20px;
+}
+/*   secondary header page    */
+#seconday_header_main_image_wrapper {
+	margin-top: 70px;
+}
+.secondary_header_wrapper {
+	border-top: 5px solid #47A3FF;
+	border-bottom: 5px solid #47A3FF;
+	background-color: white;
+	padding: 2% 0;
+}
+/*      sub menu starts here         */
+
+
+
+.main_submenu_wrapper {
+	position: fixed;
+	right: -300px;
+	bottom: 0px;
+	height: 100%;
+	background-color: black;
+	width: 200px;
+	padding: 10px 30px;
+	font-size: 18px;
+	transition: ease 500ms;
+	z-index: 9999;
+}
+.menu-item {
+	border-bottom: 1px solid aqua;
+	margin-bottom: 10px;
+}
+.main_submenu_wrapper ul {
+	list-style: none;
+	text-align: right;
+	padding-left: 0;
+}
+.main_submenu_wrapper ul a:link {
+	text-decoration: none;
+	transition: ease-in-out 300ms;
+	position: relative;
+}
+.main_submenu_wrapper ul a:hover {
+	color: white;
+	transition: ease-in-out 300ms;
+}
+/*    the pages styling starts here      */
+
+
+.bwg_order_label_0 {
+	color: black !important;
+}
+.title_back_button {
+	float: right;
+	background-color: black;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #47A3FF;
+	font-family: 'Orbitron', sans-serif;
+}
+.title_back_button:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+div[class^="bwg_album_extended_thumb_div"], div[class*=" bwg_album_extended_thumb_div"], div[class^="bwg_album_extended_text_div"], div[class*=" bwg_album_extended_text_div"] {
+	background-image: url(images/trans_black_background.png) !important;
+	border: none !important;
+}
+span[class^="bwg_title_spun"], span[class*=" bwg_title_spun"], span[class^="bwg_description_spun1"], span[class*=" bwg_description_spun1"] {
+	color: white !important;
+}
+.main_pages_header_background {
+	background: black;
+	color: white;
+	padding: 20px;
+	color: #47A3FF;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.main_pages_content_background {
+	background-image: url(images/pages_green_background.png);
+	/* ackground-color:#00A79D;*/
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 100px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	color: black;
+}
+.main_website_links {
+	color: black;
+}
+#wpcf7-f142-p104-o1 > form > p:nth-child(6) > input {
+	border: 2px solid #47A3FF;
+	background-color: black;
+	color: #47A3FF;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+/*   the footer syling      */
+#main_modal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+/*   Global styling  is below this line   */
+.white_link {
+	color: white;
+}
+#main_footer {
+	background-color:#00A79D;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:auto;
+	border-top:15px solid #47A3FF;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+/*  media queries start here    */
+
+@media (max-width: 600px) {
+	#simpleSolutionsContainer h2 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 730px) {
+	#index_login_wrapper {
+		background-image: none;
+		background-color: white;
+		width: 100%;
+	}
+	#main_menu_trigger_style {
+		width: 100%;
+	}
+	#login_image_inner_wrapper {
+		display: block;
+		margin: 0 auto;
+	}
+	#wordpress_logo {
+		left: 10px;
+	}
+	#index_login_wrapper object {
+		left: auto;
+		right: 10px;
+	}
+	#mysql_logo {
+		position: static;
+		display: block;
+		margin: 0 auto;
+	}
+	#main_menu_trigger_style h4 {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media (max-width: 767px) {
+	.main_submenu_wrapper {
+		width: 100%;
+		right: -100%;
+	}
+}
